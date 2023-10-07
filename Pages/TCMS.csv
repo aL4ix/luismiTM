@@ -1,0 +1,13 @@
+Page,Test case management system,
+,,
+@clickable,,
+Add test,//button[@id=’add’],
+@custom_combo,,
+Section combo,//div[@id=’section’],
+@typeable,,
+Test title,//input[@id=’name’],
+,,
+Add test,${title},${section}
+Send keys,Test title,${title}
+Select,Section combo,${section}
+Click,Add test,

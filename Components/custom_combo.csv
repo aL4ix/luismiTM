@@ -1,0 +1,11 @@
+Component,Combobox,,,
+,,,,
+@clickable,,,,
+Combo,//div,,,
+Items,${Combo}/span,,,
+Item,${Items}[${num}],,,
+,,,,
+@select_name,${text},,,
+Click,Combo,,,
+${num}=,Search,${text},in=Items,by=innerText
+Click ,Item,,,

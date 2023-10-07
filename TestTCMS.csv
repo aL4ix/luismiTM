@@ -1,0 +1,10 @@
+Test,,
+,,
+Import,Page,TCMS
+,,
+Comment,Support Data,
+Comment,Generate Test Cases,
+Comment,Autogenerate back tests based on contract,
+,,
+Create test case,,
+TCMS.Add test,Title,Section
